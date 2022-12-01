@@ -20,13 +20,13 @@ public class Parallax : MonoBehaviour
         float movex = Input.GetAxis("Horizontal");
         if(movex > 0)
         {
-            CharacterD.SetActive(false);
-            CharacterG.SetActive(true);
+            CharacterD.SetActive(true);
+            CharacterG.SetActive(false);
         }
         if(movex < 0)
         {
-            CharacterD.SetActive(true);
-            CharacterG.SetActive(false);
+            CharacterD.SetActive(false);
+            CharacterG.SetActive(true);
         }
         offset += Input.GetAxis("Horizontal") * vitesse;
         GetComponent<Renderer>().material.SetTextureOffset("_MainTex",new Vector2(offset, 0));
