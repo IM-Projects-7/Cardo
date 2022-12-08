@@ -41,6 +41,16 @@ public class settingMenu : MonoBehaviour
         resolutionDropdown.RefreshShownValue();
     }
 
+    public void resetGame()
+    {
+        PlayerPrefs.DeleteAll();
+        if (!PlayerPrefs.HasKey("actualSkin"))
+        {
+            PlayerPrefs.SetString("actualSkin", "DefaultSkin");
+            PlayerPrefs.SetInt("DefaultSkin", 1);
+        }
+    }
+
     public void setVolume(float volume)
     {
         audioMixer.SetFloat("volume", volume);

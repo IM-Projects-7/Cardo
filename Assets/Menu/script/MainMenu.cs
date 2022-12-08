@@ -7,9 +7,22 @@ public class MainMenu : MonoBehaviour
 {
     public string lvlToLoad;
     public GameObject settingwindows;
+
+    private void Start()
+    {
+        if (!PlayerPrefs.HasKey("actualSkin"))
+        {
+            PlayerPrefs.SetString("actualSkin", "DefaultSkin");
+            PlayerPrefs.SetInt("DefaultSkin", 1);
+        }
+    }
     public void startGame()
     {
         SceneManager.LoadScene(lvlToLoad);
+    }
+    public void boutique()
+    {
+        SceneManager.LoadScene("boutique");
     }
 
     public void settingButton()

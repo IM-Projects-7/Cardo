@@ -36,10 +36,20 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void saveGame()
+    {
+        PlayerPrefs.SetInt("money", Character.instance.getMoney());
+        float[] pos = Character.instance.getPosition();
+        PlayerPrefs.SetFloat("x", pos[0]);
+        PlayerPrefs.SetFloat("y", pos[1]);
+        PlayerPrefs.SetFloat("z", pos[2]);
+    }
+
     public void mainMenuButton()
     {
         DontDestroyOnLoadScene.instance.RemoveFromDontDestroyOnload();
         resume();
+        saveGame();
         SceneManager.LoadScene("MainMenu");
 
     }
