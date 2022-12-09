@@ -8,9 +8,11 @@ public class Character : MonoBehaviour
     private int money = 0;
     public TMP_Text visuMoney;
 
-    public Sprite[] skins;
+    public GameObject[] skins;
 
-    public SpriteRenderer skinPlacement;
+    public GameObject skinPlacement;
+
+    private GameObject finalSkin;
 
     public static Character instance;
     private void Awake()
@@ -25,7 +27,9 @@ public class Character : MonoBehaviour
         string name = PlayerPrefs.GetString("actualSkin");
         int i = 0;
         while (skins[i].name != name) i++;
-       skinPlacement.sprite = skins[i];
+        finalSkin = Instantiate(skins[i], skinPlacement.transform.position, Quaternion.identity);
+        finalSkin.transform.localScale = new Vector3(0.05f, 0.05f, 1f);
+        finalSkin.transform.parent = skinPlacement.transform.parent.transform;
 
         if (PlayerPrefs.HasKey("money"))
         {
@@ -37,7 +41,13 @@ public class Character : MonoBehaviour
             transform.position = new Vector3(PlayerPrefs.GetFloat("x"), PlayerPrefs.GetFloat("y"), PlayerPrefs.GetFloat("z"));
         }
     }
+
+    public void setScaleSkin(float x)
+    {
+        finalSkin.transform.localScale = new Vector3(x * 0.05f, 0.05f, 1f);
+    }
         
+
     public void setMoneyP(int nb)
     {
         money += nb;

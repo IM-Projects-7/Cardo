@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/boutique.unity
+    guid: cf1479cfc409d13449d9ecdcc5856971
+  - enabled: 1
+    path: Assets/Scenes/proto-projectile v2.0.unity
+    guid: 8a419b1f95b6e854297f6e17a00a6182
+  - enabled: 1
+    path: Assets/Scenes/Prototype Parallax.unity
+    guid: 719b6325b2e556b408e2e1ca4a42b63e
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: dd80c22e36a30534882edae77e854742
+  - enabled: 1
+    path: Assets/Scenes/lvl1.unity
+    guid: 697c3d006bd1a134da84e43ce1d93e77
   m_configObjects: {}

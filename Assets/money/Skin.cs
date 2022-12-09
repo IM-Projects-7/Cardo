@@ -19,6 +19,7 @@ public class Skin : MonoBehaviour
         actualSkin = PlayerPrefs.GetString("actualSkin");
         setIsChoose();
         activeDesactiveButton();
+        print(actualSkin);
         
     }
     public void desactiveChoose()

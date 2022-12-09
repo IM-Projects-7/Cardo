@@ -2163,7 +2163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec08c9311b447a4086cbf3ae6df1a71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lvlToLoad: proto-projectile
+  lvlToLoad: lvl1
   settingwindows: {fileID: 1718655184}
 --- !u!1 &1006191690
 GameObject:

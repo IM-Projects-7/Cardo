@@ -46,8 +46,8 @@ public class settingMenu : MonoBehaviour
         PlayerPrefs.DeleteAll();
         if (!PlayerPrefs.HasKey("actualSkin"))
         {
-            PlayerPrefs.SetString("actualSkin", "DefaultSkin");
-            PlayerPrefs.SetInt("DefaultSkin", 1);
+            PlayerPrefs.SetString("actualSkin", "Chanyster_Gatos");
+            PlayerPrefs.SetInt("Chanyster_Gatos", 1);
         }
     }
 
