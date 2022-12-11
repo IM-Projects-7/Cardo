@@ -11,7 +11,6 @@ public class Move_Player : MonoBehaviour
     public LayerMask collisionLayers;
 
 
-   /* public Animator animPlayer;*/
 
     public float jumpForce;
     public float moveSpeed;
@@ -41,12 +40,13 @@ public class Move_Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
+            Character.instance.animatorSetbool(true);
         }
 
         flip(rb.velocity.x);
 
-        /* float characterVelocity = Mathf.Abs(rb.velocity.x);
-         animPlayer.SetFloat("speed", characterVelocity);*/
+        float characterVelocity = Mathf.Abs(rb.velocity.x);
+        Character.instance.animatorSetFloat(characterVelocity);
     }
 
     void FixedUpdate()
@@ -75,7 +75,7 @@ public class Move_Player : MonoBehaviour
         {
             rb.AddForce(new Vector2(0f,jumpForce));
             isJumping = false;
-
+            Character.instance.animatorSetbool(false);
         }
     }
 
