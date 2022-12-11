@@ -46,6 +46,16 @@ public class Character : MonoBehaviour
     {
         finalSkin.transform.localScale = new Vector3(x * 0.05f, 0.05f, 1f);
     }
+
+    public bool isInRightOrientation()
+    {
+        return finalSkin.transform.localScale.x > 0 ? true : false;
+    }
+
+    public void setActiveFinalSkin(bool active)
+    {
+        finalSkin.SetActive(active);
+    }
         
 
     public void setMoneyP(int nb)

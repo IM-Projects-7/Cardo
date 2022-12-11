@@ -5,6 +5,7 @@ public class Move_Player : MonoBehaviour
     private bool isJumping;
     private bool isGrounded;
 
+
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask collisionLayers;
@@ -19,8 +20,21 @@ public class Move_Player : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     private float horizontalMouvement;
 
-    void Update()
+    public static Move_Player instance;
+    private void Awake()
     {
+        if (instance != null)
+        {
+            return;
+        }
+
+        instance = this;
+    }
+
+
+        void Update()
+    {
+
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
         horizontalMouvement = Input.GetAxis("Horizontal") * moveSpeed * Time.fixedDeltaTime;
 

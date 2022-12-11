@@ -6,6 +6,17 @@ public class PauseMenu : MonoBehaviour
     public static bool gameIsPaused = false;
     public GameObject pausemenuUI;
 
+    public static PauseMenu instance;
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            return;
+        }
+
+        instance = this;
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -22,7 +33,7 @@ public class PauseMenu : MonoBehaviour
 
     private void paused()
     {
-        //playermovement.instance.enabled = false;
+        Move_Player.instance.enabled = false;
         gameIsPaused = true;
         pausemenuUI.SetActive(true);
         Time.timeScale = 0;
@@ -30,7 +41,7 @@ public class PauseMenu : MonoBehaviour
 
     public void resume()
     {
-        //playermovement.instance.enabled = true;
+        Move_Player.instance.enabled = true;
         gameIsPaused = false;
         pausemenuUI.SetActive(false);
         Time.timeScale = 1;

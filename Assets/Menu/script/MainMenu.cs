@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public string lvlToLoad;
     public GameObject settingwindows;
+    public GameObject mapSelect;
 
     private void Start()
     {
@@ -15,10 +16,6 @@ public class MainMenu : MonoBehaviour
             PlayerPrefs.SetString("actualSkin", "Chanyster_Gatos");
             PlayerPrefs.SetInt("Chanyster_Gatos", 1);
         }
-    }
-    public void startGame()
-    {
-        SceneManager.LoadScene(lvlToLoad);
     }
     public void boutique()
     {
@@ -32,6 +29,11 @@ public class MainMenu : MonoBehaviour
     public void closeSettingWindow()
     {
         settingwindows.SetActive(false);
+    }
+
+    public void startbutton()
+    {
+        mapSelect.SetActive(true);
     }
 
     public void exitGame()
