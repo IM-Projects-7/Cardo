@@ -54554,8 +54554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visuMoney: {fileID: 796234125}
   skins:
-  - {fileID: -8653719598885068355, guid: 654c961eec218fa4499f5856a274ce79, type: 3}
-  - {fileID: -8653719598885068355, guid: feb1424f3ce135e44b928f021ae80c8e, type: 3}
+  - {fileID: -8653719598885068355, guid: f14a983b795c0b74bac2699e6534a6e9, type: 3}
   skinPlacement: {fileID: 579885179}
 --- !u!50 &2092859478
 Rigidbody2D:
