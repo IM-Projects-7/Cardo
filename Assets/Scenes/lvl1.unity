@@ -1501,7 +1501,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hello word
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e0de96a644261044d817a1b410ba60bf, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 66084877ee6404244b3e7ef3a3274f0d, type: 2}
   m_sharedMaterial: {fileID: -9111521245518229150, guid: c3c8bcdacc859eb4badfdf5cea25a403, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
