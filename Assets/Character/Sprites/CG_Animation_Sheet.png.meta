@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,327 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1658
+        width: 314
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299647b9c98f9f843908eec64ead1729
+      internalID: -619563667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1668
+        width: 340
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1232912473201042834008815ead06d
+      internalID: -926483148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1675
+        width: 314
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d41e573b8a6ee43ab24b241542f24a
+      internalID: 686119161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1689
+        width: 353
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce3e5bde058897489b5417f70abb4fa
+      internalID: 770624703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 1677
+        width: 320
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9c0644d2ffdb14280ee0a1ea26666d
+      internalID: 1725908798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 971
+        width: 313
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee801406e1a82d142b6bf95a06ba8d62
+      internalID: 664365170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 983
+        width: 307
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91076e59d852ff54cbba6072ce84ff66
+      internalID: 1606541544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 976
+        width: 334
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7047a576b663d544903df2998b06189
+      internalID: 2034256999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 993
+        width: 329
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b38668e6d739641b19541826704016
+      internalID: -1980906692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 983
+        width: 313
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b625c1edd996292448381c005c6c980c
+      internalID: 380122931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 263
+        width: 314
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191ab2feb15a77d4a84aea2b9a087ece
+      internalID: -1740513507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 325
+        width: 325
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4dcc5799c5ba0408aa38ee22603564
+      internalID: 1366649773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 302
+        width: 336
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cafd89890e34043865974b1202b352
+      internalID: -1980590774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CG_Animation_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 296
+        width: 331
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2233cbc93a01e844aa0941616afd63ec
+      internalID: 993665669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +407,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CG_Animation_Sheet_8: -1980906692
+      CG_Animation_Sheet_2: 686119161
+      CG_Animation_Sheet_7: 2034256999
+      CG_Animation_Sheet_4: 1725908798
+      CG_Animation_Sheet_9: 380122931
+      CG_Animation_Sheet_10: -1740513507
+      CG_Animation_Sheet_11: 1366649773
+      CG_Animation_Sheet_5: 664365170
+      CG_Animation_Sheet_6: 1606541544
+      CG_Animation_Sheet_1: -926483148
+      CG_Animation_Sheet_3: 770624703
+      CG_Animation_Sheet_12: -1980590774
+      CG_Animation_Sheet_13: 993665669
+      CG_Animation_Sheet_0: -619563667
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

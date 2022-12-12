@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,306 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1685
+        width: 361
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecd9d04ca2231d499fbf01ea09ab4f9
+      internalID: 1344946961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1671
+        width: 387
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be77843ffb7ace749a8e1093f8d2e0e4
+      internalID: -107616278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1673
+        width: 372
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ba52aa06946b46bb0d7691a5816b8
+      internalID: 443611828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 1665
+        width: 380
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0a8afe0d725b7438e49b996ec62f0f
+      internalID: 277582001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1665
+        width: 370
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5638a0e9a30344786abcc4f7cbfd30
+      internalID: -255166263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 960
+        width: 361
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af4935c162a0b6488a6bcd8e88f3b50
+      internalID: 1938885995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 947
+        width: 374
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d20371133dd05a4690b2481e7650053
+      internalID: 1203094601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 947
+        width: 362
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e2f82e1b4e7ed46acfb1e648800f4f
+      internalID: -992971236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 936
+        width: 359
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a1462c56b847c4192cf48998a1b9e5
+      internalID: 2014525614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 217
+        width: 360
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce0feca0991fc4a9bb20fdbfda34f3
+      internalID: -1954165398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 230
+        width: 361
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6341ceee5bcc2184b946c3bd042324e4
+      internalID: -2082022460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 200
+        width: 361
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b4d95094e224e438bc3f173b94c0ea
+      internalID: 1435612443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CK_Animation_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 210
+        width: 362
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e420482a624f544b86aaf46c816228
+      internalID: 1799815865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +386,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CK_Animation_Sheet_3: 277582001
+      CK_Animation_Sheet_11: 1435612443
+      CK_Animation_Sheet_2: 443611828
+      CK_Animation_Sheet_4: -255166263
+      CK_Animation_Sheet_6: 1203094601
+      CK_Animation_Sheet_9: -1954165398
+      CK_Animation_Sheet_0: 1344946961
+      CK_Animation_Sheet_7: -992971236
+      CK_Animation_Sheet_1: -107616278
+      CK_Animation_Sheet_5: 1938885995
+      CK_Animation_Sheet_12: 1799815865
+      CK_Animation_Sheet_10: -2082022460
+      CK_Animation_Sheet_8: 2014525614
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
