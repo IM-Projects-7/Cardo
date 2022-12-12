@@ -102,7 +102,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1843
+        width: 293
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7f05731066e0f48884233be62ac1dd
+      internalID: -1061337854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1839
+        width: 334
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc3511e034e9d6479f515445269a4b4
+      internalID: -1423905058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1834
+        width: 329
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9645a4612cdfd2e42bacb6cc03b0394f
+      internalID: 1059669493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1820
+        width: 348
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc799e4939a8b1940b53cfd0445f3528
+      internalID: -3270946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 1824
+        width: 356
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c35a615e05cae44889ab575edfc5aa4
+      internalID: 417763925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1265
+        width: 293
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfcff467a0792249a819911d7d72f38
+      internalID: -1786457754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1257
+        width: 311
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a17ee8dcdcb5b146973d24d4379c0d9
+      internalID: -1195020122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1253
+        width: 288
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57796d72a30d12343bc450d7594556f4
+      internalID: -2135074215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1228
+        width: 284
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88e59f70b8581a42991ce4edfec62a5
+      internalID: 575264124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 1231
+        width: 291
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2c09ce208f5e6489fba06fa9835129
+      internalID: -1600761620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 650
+        width: 293
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ebb9b1e07a04e4d956180859229207
+      internalID: -1623738755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 649
+        width: 349
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5229790909faa3a438a0bb7b15bd2c70
+      internalID: -981670793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 705
+        width: 403
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc3314f68c04734295cafd42c9c8ffd
+      internalID: -849549631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 619
+        width: 350
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad6225b37475fb4f8f09d5132028844
+      internalID: 1510540174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 69
+        width: 292
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e4d4a39780b30479bc81cbd059b554
+      internalID: 2123215928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 92
+        width: 313
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d4964e561ce5543a8da2cdb2c218a1
+      internalID: -1566284328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 112
+        width: 285
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824664fa01deaec458f17fdcf2fba2db
+      internalID: 632160054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 69
+        width: 297
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee0edbc3f4eb254b8e9f3835ac67f0c
+      internalID: -694608243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Animation_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 71
+        width: 286
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7413470c48feea44e85bbae79dc60085
+      internalID: -1052224736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -113,7 +512,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CC_Animation_Sheet_9: -1600761620
+      CC_Animation_Sheet_10: -1623738755
+      CC_Animation_Sheet_3: -3270946
+      CC_Animation_Sheet_11: -981670793
+      CC_Animation_Sheet_17: -694608243
+      CC_Animation_Sheet_12: -849549631
+      CC_Animation_Sheet_18: -1052224736
+      CC_Animation_Sheet_5: -1786457754
+      CC_Animation_Sheet_8: 575264124
+      CC_Animation_Sheet_0: -1061337854
+      CC_Animation_Sheet_1: -1423905058
+      CC_Animation_Sheet_13: 1510540174
+      CC_Animation_Sheet_7: -2135074215
+      CC_Animation_Sheet_15: -1566284328
+      CC_Animation_Sheet_16: 632160054
+      CC_Animation_Sheet_14: 2123215928
+      CC_Animation_Sheet_2: 1059669493
+      CC_Animation_Sheet_4: 417763925
+      CC_Animation_Sheet_6: -1195020122
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
