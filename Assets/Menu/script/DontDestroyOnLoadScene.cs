@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEditor.Progress;
 
 public class DontDestroyOnLoadScene : MonoBehaviour
 {
@@ -10,6 +11,11 @@ public class DontDestroyOnLoadScene : MonoBehaviour
     {
         if(instance != null)
         {
+            foreach(var item in objects)
+            {
+                Destroy(item);
+            }
+            Destroy(gameObject);
             return;
         }
 
