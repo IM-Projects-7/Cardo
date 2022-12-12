@@ -13,8 +13,8 @@ public class MainMenu : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("actualSkin"))
         {
-            PlayerPrefs.SetString("actualSkin", "Chanyster_Gatos");
-            PlayerPrefs.SetInt("Chanyster_Gatos", 1);
+            PlayerPrefs.SetString("actualSkin", "Mousebourne");
+            PlayerPrefs.SetInt("Mousebourne", 1);
         }
     }
     public void boutique()

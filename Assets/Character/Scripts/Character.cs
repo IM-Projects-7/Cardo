@@ -28,7 +28,7 @@ public class Character : MonoBehaviour
         int i = 0;
         while (skins[i].name != name) i++;
         finalSkin = Instantiate(skins[i], skinPlacement.transform.position, Quaternion.identity);
-        finalSkin.transform.localScale = new Vector3(0.05f, 0.05f, 1f);
+        finalSkin.transform.localScale = new Vector3(0.2f, 0.2f, 1f);
         finalSkin.transform.parent = skinPlacement.transform.parent.transform;
 
         if (PlayerPrefs.HasKey("money"))
@@ -42,9 +42,18 @@ public class Character : MonoBehaviour
         }
     }
 
+    public void animatorSetFloat(float set)
+    {
+        finalSkin.GetComponent<Animator>().SetFloat("speed",set);
+    }
+    public void animatorSetbool(bool set)
+    {
+        finalSkin.GetComponent<Animator>().SetBool("saut", set);
+    }
+
     public void setScaleSkin(float x)
     {
-        finalSkin.transform.localScale = new Vector3(x * 0.05f, 0.05f, 1f);
+        finalSkin.transform.localScale = new Vector3(x * 0.2f, 0.2f, 1f);
     }
 
     public bool isInRightOrientation()
