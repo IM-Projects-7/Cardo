@@ -40,7 +40,6 @@ public class Move_Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
-            Character.instance.animatorSetbool(true);
         }
 
         flip(rb.velocity.x);
@@ -75,7 +74,6 @@ public class Move_Player : MonoBehaviour
         {
             rb.AddForce(new Vector2(0f,jumpForce));
             isJumping = false;
-            Character.instance.animatorSetbool(false);
         }
     }
 

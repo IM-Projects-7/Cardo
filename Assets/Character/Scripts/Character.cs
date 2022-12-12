@@ -6,6 +6,8 @@ using TMPro;
 public class Character : MonoBehaviour
 {
     private int money = 0;
+    private int noteRecup = 0;
+    public TMP_Text visuNote;
     public TMP_Text visuMoney;
 
     public GameObject[] skins;
@@ -35,20 +37,22 @@ public class Character : MonoBehaviour
         {
             money = PlayerPrefs.GetInt("money");
         }
-        visuMoney.text = money + "";
-        if (PlayerPrefs.HasKey("x"))
+        if (PlayerPrefs.HasKey("note"))
         {
-            transform.position = new Vector3(PlayerPrefs.GetFloat("x"), PlayerPrefs.GetFloat("y"), PlayerPrefs.GetFloat("z"));
+            noteRecup = PlayerPrefs.GetInt("note");
         }
+        visuMoney.text = money + "";
+        visuNote.text = noteRecup + "";
+        
     }
 
     public void animatorSetFloat(float set)
     {
         finalSkin.GetComponent<Animator>().SetFloat("speed",set);
     }
-    public void animatorSetbool(bool set)
+    public void animatorSetBool(bool set)
     {
-        finalSkin.GetComponent<Animator>().SetBool("saut", set);
+        finalSkin.GetComponent<Animator>().SetBool("tir", set);
     }
 
     public void setScaleSkin(float x)
@@ -71,16 +75,19 @@ public class Character : MonoBehaviour
     {
         money += nb;
         visuMoney.text = money+"";
-    } 
-
+    }
+    public void setNoteP(int nb)
+    {
+        noteRecup += nb;
+        visuNote.text = noteRecup + "";
+    }
     public int getMoney()
     {
         return money;
-    } 
-
-    public float[] getPosition()
-    { 
-        return  new[] { transform.position.x, transform.position.y, transform.position.z };
+    }
+    public int getNote()
+    {
+        return noteRecup;
     }
 
 }

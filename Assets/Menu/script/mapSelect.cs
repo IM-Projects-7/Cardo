@@ -37,6 +37,7 @@ public class mapSelect : MonoBehaviour
 
     public void playLvl(string nameOfLvl)
     {
+        DontDestroyOnLoadScene.instance.RemoveFromDontDestroyOnload();
         SceneManager.LoadScene(nameOfLvl);
     }
 }
