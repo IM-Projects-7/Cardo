@@ -16,6 +16,7 @@ public class Character : MonoBehaviour
 
     private GameObject finalSkin;
 
+
     public static Character instance;
     private void Awake()
     {
@@ -30,7 +31,7 @@ public class Character : MonoBehaviour
         int i = 0;
         while (skins[i].name != name) i++;
         finalSkin = Instantiate(skins[i], skinPlacement.transform.position, Quaternion.identity);
-        finalSkin.transform.localScale = new Vector3(0.2f, 0.2f, 1f);
+        finalSkin.transform.localScale = new Vector3(0.16f, 0.16f, 1f);
         finalSkin.transform.parent = skinPlacement.transform.parent.transform;
 
         if (PlayerPrefs.HasKey("money"))
@@ -43,7 +44,6 @@ public class Character : MonoBehaviour
         }
         visuMoney.text = money + "";
         visuNote.text = noteRecup + "";
-        
     }
 
     public void animatorSetFloat(float set)
@@ -54,10 +54,15 @@ public class Character : MonoBehaviour
     {
         finalSkin.GetComponent<Animator>().SetBool("tir", set);
     }
+    public void animatorSetMonter(float set)
+    {
+
+        finalSkin.GetComponent<Animator>().SetFloat("escalade", set);
+    }
 
     public void setScaleSkin(float x)
     {
-        finalSkin.transform.localScale = new Vector3(x * 0.2f, 0.2f, 1f);
+        finalSkin.transform.localScale = new Vector3(x * 0.16f, 0.16f, 1f);
     }
 
     public bool isInRightOrientation()

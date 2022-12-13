@@ -76,6 +76,10 @@ public class Move_Player : MonoBehaviour
             isJumping = false;
         }
     }
+        public float upPlayer()
+    {
+        return rb.velocity.y;
+    }
 
     private void OnDrawGizmos()
     {

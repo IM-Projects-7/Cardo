@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Go_Up_Gutter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        
+        if (collision.CompareTag("Player"))
+        {
+            Character.instance.animatorSetMonter(Move_Player.instance.upPlayer());
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Character.instance.animatorSetMonter(0);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -23,7 +23,7 @@ public class moveSbire : MonoBehaviour
         {
             destPoint = (destPoint + 1) % waypoints.Length;
             target = waypoints[destPoint];
-            transform.localScale = new Vector3(destPoint == 0?0.05f: -0.05f, 0.05f, 1f);
+            transform.localScale = new Vector3(destPoint == 0?0.14f: -0.14f, 0.14f, 1f);
         }
 
     }
