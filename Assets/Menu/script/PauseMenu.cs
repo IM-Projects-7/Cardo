@@ -50,7 +50,7 @@ public class PauseMenu : MonoBehaviour
     public void saveGame()
     {
         PlayerPrefs.SetInt("money", Character.instance.getMoney());
-        PlayerPrefs.SetInt("note", Character.instance.getNote());
+        /*PlayerPrefs.SetInt("note", Character.instance.getNote());*/
     }
 
     public void mainMenuButton()

@@ -6,7 +6,7 @@ using TMPro;
 public class Character : MonoBehaviour
 {
     private int money = 0;
-    private int noteRecup = 0;
+    private int noteRecup = 5;
     public TMP_Text visuNote;
     public TMP_Text visuMoney;
 
@@ -38,10 +38,7 @@ public class Character : MonoBehaviour
         {
             money = PlayerPrefs.GetInt("money");
         }
-        if (PlayerPrefs.HasKey("note"))
-        {
-            noteRecup = PlayerPrefs.GetInt("note");
-        }
+       
         visuMoney.text = money + "";
         visuNote.text = noteRecup + "";
     }

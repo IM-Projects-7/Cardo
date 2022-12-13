@@ -18,6 +18,9 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.T))
         {
+            if (Character.instance.getNote()>0)
+            {
+                Character.instance.setNoteP(-1);
             var t = setAnim();
             int noteType = Random.Range(0, projectiles.Length); // Genere aleatoirement un index pour determiner l'apparence du projectile
             GameObject noteProjectile = Instantiate(projectiles[noteType], Character.instance.isInRightOrientation()? posRight.transform.position: posLeft.transform.position, Quaternion.identity) as GameObject; // Cree un GameObject comme clone/instance du projectile selectionne 
@@ -28,6 +31,8 @@ public class PlayerAttack : MonoBehaviour
             noteProjectile.GetComponent<Rigidbody2D>().velocity = Character.instance.isInRightOrientation() ?  Vector2.right * force : Vector2.left * force; // Donne un mouvement vers la droite de l'axe X (direction du personnage) avec une vitesse par rapport a la variable force
             Destroy(noteProjectile, 2f);
             await (t);
+
+            }
         }
     }
     private async Task setAnim()
